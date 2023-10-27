@@ -92,9 +92,9 @@ public class Person {
         if (firstName.isEmpty() && lastName.isEmpty()) {
             return " ";
         } else if (firstName.isEmpty()) {
-            return firstName;
-        } else if (lastName.isEmpty()) {
             return lastName;
+        } else if (lastName.isEmpty()) {
+            return firstName;
         } else {
             return firstName + " " + lastName;
         }

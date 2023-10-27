@@ -20,8 +20,8 @@ public class Programme2 {
     //A century year should be divisible by 4 and 100 both
     // Non-century year should not be divisible only by 4
     public static void isLeapYear(int year) {
-        if (year % 400 == 0)
-        //if ((year % 4 == 0 && year % 100!= 0) || year % 400 == 0)
+        //if (year % 400 == 0)
+        if ((year % 4 == 0 && year % 100!= 0) || year % 400 == 0)
         {
             System.out.println(year + " The year is leap year!");
         } else {
